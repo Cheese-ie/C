@@ -5,14 +5,14 @@
 int main(void)
 {
 	int mins1,mins2,hour;
-	printf("ÇëÊäÈë·ÖÖÓÊı£º");
+	printf("è¯·è¾“å…¥åˆ†é’Ÿæ•°ï¼š");
 	scanf("%d", &mins1);
 	while (mins1 > 0)
 	{
 		mins2 = mins1 % PRE_H;
 		hour = mins1 / PRE_H;
-		printf("\n¶ÔÓ¦Ê±¼äÎª%dĞ¡Ê±%d·ÖÖÓ", hour, mins2);
-		printf("\nÇëÊäÈë·ÖÖÓÊı(ÊäÈëĞ¡ÓÚ»òµÈÓÚ0µÄÖµ½áÊø)£º");
+		printf("\nå¯¹åº”æ—¶é—´ä¸º%då°æ—¶%dåˆ†é’Ÿ", hour, mins2);
+		printf("\nè¯·è¾“å…¥åˆ†é’Ÿæ•°(è¾“å…¥å°äºæˆ–ç­‰äº0çš„å€¼ç»“æŸ)ï¼š");
 		scanf("%d", &mins1);
 	}
 	return 0;
