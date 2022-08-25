@@ -1,6 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-
 int main(void)
 {
 	char name1[20], name2[20];
